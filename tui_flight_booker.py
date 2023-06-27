@@ -4,7 +4,7 @@ import requests
 import snowflake.connector
 from urllib.error import URLError
 
-import googleanalytics as ga
+import google-analytics as ga
 ga.tracker.initialize('G-LYENR7YJX3')
 
 
