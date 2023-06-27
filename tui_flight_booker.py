@@ -4,9 +4,6 @@ import requests
 import snowflake.connector
 from urllib.error import URLError
 
-import google.analytics as ga
-ga.tracker.initialize('G-LYENR7YJX3')
-
 
 streamlit.title('My Parents New Healthy Diner')
 streamlit.header('Breakfast Menu')
